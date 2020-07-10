@@ -1,4 +1,4 @@
-# Traffic Flow of Syndey, Australia
+# Traffic Flow of Sydney, Australia
 - This project aims to predict traffic patterns on the Eastern Distributor Highway (M1) in Sydney, Australia. The data was provided by the government of New South Wales for the Williams Street Exit toll (https://nswtollroaddata.com). With this information, city planners, trucking companies, and commuters can better plan and predict future traffic levels and plan their commutes accordingly.
 
 # Process
