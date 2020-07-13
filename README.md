@@ -10,6 +10,7 @@ Everyone wants to avoid traffic, companies more than others. The reason being th
 - Full traffic : **14 - 26** min.
 
 GOOGLE MAPS PIC
+![Map of Sample Route on M1 Highway](./sydney_traffic_maps_times.png)
 
 Therefore, as a result of poor planning, a trip can take two times more time than necessary. But what if we could tell the company/commuter eactly how much traffic to expect depending on the time that they leave their house? This would be hugely beneficial to people who make the same commute often but are flexible about when they leave. In this project, **I create models to determine the amount of traffic on the M1 for any hour, day, or time of year**. _The best model, a Long Short Term Memory (LSTM) neural network_, makes predictions that are within 89 cars of the true number of cars per hour. If, for example, there were actually 1,000 cars on the road between 8 and 9 a.m. (as there often is in this data), the LSTM model will, on average, make a prediction between 917 and 1,083 cars on the road for that time period. 
 
