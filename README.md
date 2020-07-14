@@ -33,6 +33,8 @@ The success of various LSTM, fbprophet and the baseline model can be seen in the
 
 Overall, we can see that LSTM is the best model (highest correlation to actual values (R2_score), and closest guess to actual values ((R)MSE)). A downside to this model is that it consistently underpredicts the true number of cars on the road. One model that does better than the LSTM model, in this regard, is one of the fbprophet models (Model8_no_negs) predicts values that are above and below the true value of cars on the road in equal proportion (as shown by MFE_Bias).
 
+![Comparison of Models' Performance](./Comparison_of_model_performance.png)
+
 ## Technologies Used 
 - Jupyter Notebook
 - Python
