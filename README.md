@@ -43,6 +43,7 @@ Overall, we can see that LSTM is the best model (highest correlation to actual v
     - fbprophet
     - sklearn
     - numpy
+- fbprophet
 
 ## Presentation and Collaboration
 This project was initially worked on with Treavor Hearn (treavohearn) as our time series capstone for the Flatiron School's Data Science Bootcamp. This collaboration only used autoregressive models. A presentation of these results can be found here: https://docs.google.com/presentation/d/1rRSCcDYUPoec5JbITOHacauFt0mKyWxhl402t8pavRk/edit?usp=sharing.
