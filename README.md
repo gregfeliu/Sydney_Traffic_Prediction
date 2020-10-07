@@ -40,7 +40,6 @@ Overall, we can see that LSTM is the best model (highest correlation to actual v
 - Python
     - Pandas
     - Keras
-    - fbprophet
     - sklearn
     - numpy
 - fbprophet
