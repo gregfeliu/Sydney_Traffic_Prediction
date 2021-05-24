@@ -9,7 +9,7 @@ Everyone wants to avoid traffic, companies more than others. The reason being th
 - Medium traffic : **9 - 16** min.
 - Full traffic : **14 - 26** min.
 
-![Map of Sample Route on M1 Highway](./sydney_traffic_maps_time.png)
+![Map of Sample Route on M1 Highway](./sydney_traffic_models_images/sydney_traffic_maps_time.png)
 
 Therefore, as a result of poor planning, a trip can take two times more time than necessary. But what if we could tell the company/commuter eactly how much traffic to expect depending on the time that they leave their house? This would be hugely beneficial to people who make the same commute often but are flexible about when they leave. In this project, **I create models to determine the amount of traffic on the M1 for any hour, day, or time of year**. _The best model, a Long Short Term Memory (LSTM) neural network_, makes predictions that are within 45 cars of the true number of cars per hour. If, for example, there were actually 1,000 cars on the road between 8 and 9 a.m. (as there often is in this data), the LSTM model will, on average, make a prediction between 955 and 1,045 cars on the road for that time period. 
 
@@ -29,11 +29,11 @@ Based on one metric, the (root) mean squared error, we can roughly order the suc
 
 The success of various LSTM, fbprophet and the baseline model can be seen in the following table: 
 
-![Model Metrics Dataframe](./model_metrics_df_screenshot_w_marks.png)
+![Model Metrics Dataframe](./sydney_traffic_models_images/model_metrics_df_screenshot_w_marks.png)
 
 Overall, we can see that LSTM is the best model (highest correlation to actual values (R2_score), and closest guess to actual values ((R)MSE)). A downside to this model is that it consistently underpredicts the true number of cars on the road. One model that does better than the LSTM model, in this regard, is one of the fbprophet models (Model8_no_negs) predicts values that are above and below the true value of cars on the road in equal proportion (as shown by MFE_Bias).
 
-![Comparison of Models' Performance](./Comparison_of_model_performance.png)
+![Comparison of Models' Performance](./sydney_traffic_models_images/Comparison_of_model_performance.png)
 
 ## Technologies Used 
 - Jupyter Notebook
